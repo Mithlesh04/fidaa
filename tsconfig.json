@@ -1,0 +1,20 @@
+{
+  "include": ["./lib/**/*.ts", "lib/utils/requestMethods.js", "lib/fidaa.js"],
+  "compilerOptions": {
+    "module": "ES2020",
+    "lib": ["dom", "ES2020"],
+    "types": ["node"],
+    "moduleResolution": "node",
+    "strict": true,
+    "noEmit": false,
+    "baseUrl": ".",
+    // "emitDeclarationOnly": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    // enable js
+    "allowJs": true,
+    "paths": {
+      "fidaa": ["."]
+    }
+  }
+}
