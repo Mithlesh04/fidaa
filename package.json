@@ -20,6 +20,10 @@
     "promise",
     "node"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mithlesh04/fidaa"
+  },
   "author": "Mithlesh Kumar",
   "license": "MIT",
   "jsdelivr": "dist/fidaa.min.js",
